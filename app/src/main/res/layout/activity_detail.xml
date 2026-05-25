@@ -52,6 +52,15 @@
             android:textSize="16sp"
             android:text="Disponible" />
 
+        <Button
+            android:id="@+id/btnModifier"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Modifier ce livre"
+            android:backgroundTint="#7C3AED"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="24dp"/>
+
     </LinearLayout>
 
 </ScrollView>

@@ -1,9 +1,13 @@
 package com.example.bibliothequeapp;
 
 import java.io.Serializable;
+import androidx.room.Entity;
+import androidx.room.PrimaryKey;
 
+@Entity(tableName = "livres")
 public class Livre implements Serializable {
 
+    @PrimaryKey(autoGenerate = true)
     private int id;
     private String titre;
     private String auteur;
